@@ -5,7 +5,6 @@ description: This is my first solo trip.
 tag: Personal Blog
 author: You
 ---
-## Blockquotes
 
 Hey guys, let's jot something down.
 
