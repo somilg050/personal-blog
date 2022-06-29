@@ -2,9 +2,9 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   const meta = {
-    title: 'Next.js Blog Starter Kit',
-    description: 'Clone and deploy your own Next.js portfolio in minutes.',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    title: 'www.somil.xyz',
+    description: 'My Digital Garden 🪴',
+    image: 'https://cdn-images-1.medium.com/max/800/1*cxdHyal-gX6AzsZLXMVI3w.png'
   }
 
   return (
