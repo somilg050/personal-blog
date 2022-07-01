@@ -1,12 +1,12 @@
 ---
-title: CI & CD pipeline using AWS Code Pipeline and Elastic Beanstalk
+title: Set up a continuous deployment pipeline using CodePipeline and Elastic Beanstalk
 date: 2022/7/01
 description: Build a fully CI/CD application.
 tag: Tech Blog
 author: You
 ---
 
-![Image](https://miro.medium.com/max/1400/1*9uGuGEt-GLX4XNVfjmtlbQ.png)
+![Image](https://s3.ap-south-1.amazonaws.com/somilgupta.me-docs/Screenshot+2022-07-01+at+2.23.32+PM.png)
 
 ---
 **What is AWS Code Pipeline?**      
