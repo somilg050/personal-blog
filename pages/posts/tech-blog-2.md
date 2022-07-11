@@ -23,8 +23,9 @@ You can always iterate from your MVP. If you think something bad will happen if 
 * Very limited functionality.
 * Appeal to a very small set of users.
 
-Solving hair on fire problem -
-<p style="text-align:center;"><img src="http://4.bp.blogspot.com/-4bXmeEtAwAc/Vfq6KbbptJI/AAAAAAAAThM/UWL7chrgsas/s1600/hair%2Bon%2Bfire_blog%2Bpost_pic1_v2.png"  width=50% height=50%></p>
+**Solving hair on fire problem -**
+
+![Image](https://somils-travel-blog.s3.ap-south-1.amazonaws.com/hair_on_fire_1200x800.png)
 
 Let's take an example:   
 *Imagine a guy sitting beside you with his hair on fire; what would you do in such a situation? You will go and bring the bucket of water and put the fire off; that would have been the perfect solution. But now, imagine you don't have a bucket of water. Instead, you have a brick in your hand. If you wanna solution right now, buy my brick and bang it on your head until the fire is off.*
@@ -48,16 +49,18 @@ Learning from customers is easier with an MVP than without. Talking to the users
 Rather than solving what's hard to solve, focus on what customers want.
 
 Why the rush? Why can't I go slowly?
-> NO
+> No
 
-**How to prioritise?**
-You will never be able to check off your complete list; there will always be something on the table.   
+**How to prioritise?**  
+You will never be able to check off your complete list; there will always be something on the table.
+
+
 **Focus on:**
 1. Make revenue growth your primary KPI.
 2. What's the KPI goal for this week? Set a target, what you want to achieve in the short term. This will remind you to go fast.
 3. Identify your biggest bottleneck.
 
-**A simple system to move your KPIs:**
+**A simple system to move your KPIs:**`
 1. Write down the ideas that may help
    Rank them.
 2. If your KPI is not moving, be brutally honest and think why.
@@ -79,13 +82,14 @@ You will never be able to check off your complete list; there will always be som
 *Don't waste your time on the things which will not take you near to product-market fit. It's good to waste your time on something that's not scalable, as long as it's not breaking.*
 
 **Bad KPIs:**
+```
 1. Amount raised
 2. Team size
 3. Office space sqft
 4. Press hits
 5. Celebrity endorsements
 6. Instagram likes
-
+```
 **Setting targets:**    
 **How much growth is enough?**    
 From paul graham -
@@ -105,17 +109,6 @@ Early growth matters; growth rate compounds.
 * KPIs
     * Primary KPI = Revenue Growth, unless exceptional circumstances.
     * Secondary KPIs are important to track but not necessarily optimise (yet)
-
 > Prioritization matters. KPIs help you prioritise.
 
 That's all folks. Ba bye :)
-
-
-
-
-
-
-
-
-
-
