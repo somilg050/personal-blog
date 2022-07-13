@@ -75,3 +75,5 @@ So whenever you push any changes in your GitHub repo, the pipeline will start th
 That's it!!
 
 _Thanks for reading, folks :)_
+
+![image](https://raw.githubusercontent.com/somilg050/somilg050/master/dino.gif)

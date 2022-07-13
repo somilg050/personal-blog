@@ -38,3 +38,6 @@ I learned a lot of lessons about solo travelling and travelling in general.
 Finger crossed for more such trips :)
 
 Bye-bye for now.
+
+
+![image](https://raw.githubusercontent.com/somilg050/somilg050/master/coolBE.jpeg)
