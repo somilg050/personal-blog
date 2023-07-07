@@ -18,15 +18,16 @@ In this blog post, we will explore how to run cron jobs on an AMI using the cron
          _/ _/
        _/m/'
 ```
+
 ---
 
-**What is Cron and What does it do?**    
+### **What is Cron and What does it do?**    
 
-Cron is a time-based job scheduler in Unix-like operating systems that allows users to automate repetitive tasks. 
-It is an essential tool for developers who want to schedule and execute commands or scripts at specific intervals. 
+Cron is a time-based job scheduler in Unix-like operating systems that allows users to automate repetitive tasks. It is an essential tool for developers who want to schedule and execute commands or scripts at specific intervals.&nbsp;
 
 Cron operates using a file called the "**cron table**" or "**crontab.**" The cron table contains a list of commands or scripts along with their schedule, specifying when and how often they should be executed. 
 These scheduled commands or scripts are known as "**cron jobs.**"
+
 ---
 
 **First and foremost, let's try to understand the cron syntax**
@@ -41,22 +42,19 @@ This is how a one-liner cron job looks like, It's essential to understand the cr
 │ └────────────────── Hour (0 - 23)
 └─────────────────────── Minute (0 - 59)
 ```
+---
+### Let's get started with the steps now.
 
-Let's get started with the steps now.
-
-**Step 1:** Accessing your AMI:
-
+**Step 1:** Accessing your AMI:   
 To begin, you need to access your AMI either through the AWS Management Console or by connecting to your instance via SSH.
 
 **Step 2:** Installing **crontab**:   
-
 By default, crontab is not installed on some AMIs, so you may need to install it. To install crontab, execute the following command:
 ```shell
 sudo yum install cronie
 ```
 
 **Step 3:** Editing the cron table:  
-
 Once crontab is installed, you can edit the cron table by running the command:
 ```shell
 crontab -e
@@ -72,7 +70,11 @@ For example, to schedule a task to run every day at 2:30 AM, add the following l
 "/tmp/crontab.Jt72NEAVtu" 0L, 0B
 ```
 
-That's it!! You have successfully learned the basics of cron job now, lets deep dive using an example now.
+That's it!! You have successfully learned the basics of crontab now, lets deep dive using an example now.
+
+---
+
+### **Learn by doing :)**
 
 We will look at some of the most common use cases of cron jobs. We will use an example where we will run a script every 3 hours using Crontab.
 
@@ -100,58 +102,50 @@ Add the following line to the cron table:
 Save the file and exit the editor. This will schedule the script to run every 3 hours.
 And that's how you have created your first cron job on your AMI.
 
-### Few commands that will help you manage your cron jobs:
+---
 
-#### Checking the status of cron jobs:
+### Few commands that will help you manage your cron jobs:    
 
+#### \> Checking the status of cron jobs:
 To check the status of cron jobs, run the command:
 ```shell
 crontab -l
 ```
-
 This will list all the cron jobs that are scheduled to run on your AMI.
 
-#### Deleting cron jobs:
-
+#### \> Deleting cron jobs:
 To delete a cron job, run the command:
 ```shell
 crontab -r
 ```
-
 This will delete all the cron jobs that are scheduled to run on your AMI.
 
-#### Restarting cron service:
-
+#### \> Restarting cron service:
 To restart the cron service, run the command:
 ```shell
 sudo service crond restart
 ```
-
 This will restart the cron service on your AMI.
 
-#### Checking the status of cron service:
-
+#### \> Checking the status of cron service:
 To check the status of cron service, run the command:
 ```shell
 sudo service crond status
 ```
-
 This will display the status of cron service on your AMI.
 
-#### Checking the logs of cron jobs:
-
+#### \> Checking the logs of cron jobs:
 To check the logs of cron jobs, run the command:
 ```shell
 sudo tail -f /var/log/cron
 ```
-
 This will display the logs of cron jobs on your AMI. By default, cron job output is sent to the user's email address associated with the AMI. To check the output, you can use the mail command. For example:
 ```shell
 mail
 ```
 This will display any incoming mail, including the output of cron jobs.
 
-**Conclusion:**
+### **Conclusion:**
 
 Automating tasks using cron jobs on an Amazon Machine Image (AMI) can greatly simplify your workflow and save you time. 
 By following the steps outlined in this guide, you can easily schedule and manage cron jobs on your AMI using the crontab utility. Remember to test and validate your cron jobs to ensure they are functioning as expected.
