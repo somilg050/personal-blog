@@ -7,6 +7,8 @@ export default function Nextra({ Component, pageProps }) {
   return (
     <>
       <Head>
+          <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5348704136973287"
+                  crossOrigin="anonymous"></script>
         <link
           rel="alternate"
           type="application/rss+xml"
