@@ -23,6 +23,8 @@ In this blog post, we will explore how to run cron jobs on an AMI using the cron
 
 ### **What is Cron and What does it do?**    
 
+![Cron](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*8cphjbgjRS_dqwc5AlhDjA.jpeg)
+
 Cron is a time-based job scheduler in Unix-like operating systems that allows users to automate repetitive tasks. It is an essential tool for developers who want to schedule and execute commands or scripts at specific intervals.&nbsp;
 
 Cron operates using a file called the "**cron table**" or "**crontab.**" The cron table contains a list of commands or scripts along with their schedule, specifying when and how often they should be executed. 

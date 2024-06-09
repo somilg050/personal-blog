@@ -8,6 +8,8 @@ author: You
 
 **MVP (Minimum Viable Product) - by Michael Seibel**
 
+![MVP](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*w_c7EjmUakx-Kqnb.png)
+
 The first version of your product. The version where you will be learning what you are going to build.
 
 The goal of a pre-launch startup:
@@ -25,7 +27,7 @@ You can always iterate from your MVP. If you think something bad will happen if 
 
 **Solving hair on fire problem -**
 
-![Image](https://somils-travel-blog.s3.ap-south-1.amazonaws.com/hair_on_fire_1200x800.png)
+![Image](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*lZKOz7Ql8XACujq1sPgBDA.png)
 
 Let's take an example:   
 *Imagine a guy sitting beside you with his hair on fire; what would you do in such a situation? You will go and bring the bucket of water and put the fire off; that would have been the perfect solution. But now, imagine you don't have a bucket of water. Instead, you have a brick in your hand. If you wanna solution right now, buy my brick and bang it on your head until the fire is off.*
