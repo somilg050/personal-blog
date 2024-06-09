@@ -6,7 +6,7 @@ tag: Tech Blog
 author: You
 ---
 
-![Image](https://s3.ap-south-1.amazonaws.com/somilgupta.me-docs/Screenshot+2022-07-01+at+2.23.32+PM.png)
+![Image](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*0NRUfa6775wBpOzw1nmeOw.png)
 
 ---
 **What is AWS Code Pipeline?**      
@@ -19,7 +19,7 @@ In simple words upload your code and Elastic Beanstalk automatically handles the
 ---
 Let's get it started...
 
-![Image](https://s3.ap-south-1.amazonaws.com/somilgupta.me-docs/Screenshot+2022-07-01+at+7.32.11+AM.png)
+![Image](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*U1xe7euOzPXLut4V.png)
 
 So for creating an application, head to the elastic beanstalk and click **"Create Application"**.    
 Provide the essential details such as the app name, platform (e.g. Node.js, Java, go etc.), select the platform version and then click on **"Create Environment"**.    
@@ -44,7 +44,7 @@ Meanwhile, grab something to eat and relax as this will take a few minutes.
 
 After it's done, you will see a page like this. Which shows your sample application has been successfully created.
 
-![Image](https://s3.ap-south-1.amazonaws.com/somilgupta.me-docs/Screenshot+2022-07-01+at+7.41.33+AM.png)
+![Image](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*z-8ZcmmB1fbVkwT0.png)
 
 Here our first task is done, we have created a sample EBS application. The second task on our bucket list is to create a code pipeline for CI/CD.   
 Now head over to the **AWS CodePipeline** service.
@@ -63,7 +63,7 @@ Now hit **"Create pipeline."**
 
 This will create a pipeline for you, which shows the GitHub in the source stage and our AWS EBS in the deploy stage.   
 
-![Image](https://s3.ap-south-1.amazonaws.com/somilgupta.me-docs/Screenshot+2022-07-01+at+7.53.08+AM.png)
+![Image](https://miro.medium.com/v2/resize:fit:1100/format:webp/0*ymXSzKe4iyfLbyhu.png)
 
 Just a sample image for you to understand :)
 
